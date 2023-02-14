@@ -1,0 +1,24 @@
+.container {
+    max-width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;
+    padding-top: 14rem;
+}
+.header__block {
+    color: white;
+}
+.header__icon {
+    padding:0 10px ;
+}
+.header__btn {
+    background: rgb(243, 43, 43);
+    width: 116px;
+    height: 38px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 1rem;
+}

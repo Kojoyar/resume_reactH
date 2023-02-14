@@ -1,0 +1,234 @@
+.container {
+    max-width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* card start  */
+.card {
+    padding-top: 10rem;
+}
+.card__block {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.card__flex {
+    display: flex;
+    justify-content: center;
+}
+.card__text {
+    margin-right: 0;
+    text-align: center;
+}
+.card-inline {
+    text-align: center;
+    width: 250px;
+    color: rgb(213, 213, 56);
+    transition: 2s;
+}
+.card__flex_2 {
+    text-align: center;
+}
+#card__id {
+    color: rgb(243, 43, 43);
+}
+#card__id_2 {
+    color: rgb(101, 189, 101);
+}
+.card-inline:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card__title_main {
+    font-size: 40px;
+    text-align: center;
+    color: gray;
+}
+.card__title {
+    font-size: 30px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(213, 213, 56);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+    width: 100px;
+    height: 30px;
+    margin-top: 5rem;
+}
+.btn:hover {
+    background-color: #133c67
+}
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.btn {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+    width: 100px;
+    height: 30px;
+    margin-top: 5rem;
+}
+
+.btn:hover {
+    background-color: rgb(190, 85, 85)
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.btn__flex {
+    display: flex;
+    justify-content: center;
+}
+ /* card end  */
+
+ /* hobby start  */
+.about {
+    padding-top: 6rem;
+}
+.about__title {
+    color: white;
+}
+.about__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.about__content {
+    background: #133c67;
+    width: 50%;
+    height: 150px;
+    padding: 1rem 1rem;border-radius: 10px;
+}
+.about__btn {
+    background: red;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+ /* hobby end  */
+
+
+ /* services start  */
+.service__block {
+    padding-top: 4rem;
+}
+.service__flex {
+    display: flex;
+    align-items: center;
+}
+.sevices__title_main {
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0;
+    /* margin: 120px 0 50px; */
+}
+.services__list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.services__item {
+    margin: 0 5%;
+}
+.services__item > img {
+    margin-top: 20px;
+}
+
+.services__title {
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 0;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    /* margin-bottom: 0; */
+}
+.services__desc {
+    color: #141414;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.service__flex_title {
+    padding-top: 1rem;
+    padding-left: 7px;
+}
+.service__span {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.service__span_1 {
+    color: #99823D;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;font-weight: 400;
+    font-size: 11px;
+    width: 4%;
+    margin: auto;
+}
+.services__icon {
+    margin-right: 1rem;
+    margin-bottom: 0.4rem;
+}
+ /* services end  */
+
+
+ /* resume start  */
+
+.resume {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.resume__title {
+    font-size: 40px;
+}
+.resume__item {
+    padding-top: 3rem;
+    font-size: 20px;
+}
+.resume__date {
+    color: #999;
+}
